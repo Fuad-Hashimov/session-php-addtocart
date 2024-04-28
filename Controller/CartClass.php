@@ -1,7 +1,8 @@
 <?php
 class Cart
 {
-    function addToCart(){
+    function addToCart()
+    {
         if (isset($_POST['add-cart'])) {
             $productId = $_POST['id'];
             $quantity = $_POST['quantity'];
@@ -18,8 +19,8 @@ class Cart
             }
         }
     }
-
-    function removeOneItem(){
+    function removeOneItem()
+    {
         if (isset($_GET['remove'])) {
             $id = $_GET['remove'];
             foreach ($_SESSION['cart'] as $key => $val) {
@@ -29,8 +30,8 @@ class Cart
             }
         }
     }
-
-    function removeAll(){
+    function removeAll()
+    {
         if (isset($_GET['empty'])) {
             unset($_SESSION['cart']);
         }

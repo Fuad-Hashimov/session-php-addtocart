@@ -3,8 +3,8 @@ session_start();
 include "./inc/header.php";
 include "./Controller/CartClass.php";
 $remove = new Cart();
-$remove -> removeOneItem();
-$remove -> removeAll();
+$remove->removeOneItem();
+$remove->removeAll();
 ?>
 
 <div class="container mt-3">

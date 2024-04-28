@@ -4,7 +4,7 @@ include "./inc/header.php";
 include "./Controller/CartClass.php";
 include "./db/mockData.php";
 $addToCart = new Cart();
-$addToCart -> addToCart();
+$addToCart->addToCart();
 ?>
 
 <div class="container">
@@ -42,7 +42,6 @@ $addToCart -> addToCart();
                             <button class="btn btn-primary" type="submit" name="add-cart">Add To Cart</button>
                         </form>
                     </div>
-
                 </div>
             </div>
         <?php endforeach ?>
