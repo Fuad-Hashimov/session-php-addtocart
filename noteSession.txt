@@ -1,17 +1,1 @@
-session_start();
-sesiona yazmaq
-$_SESSION['username'] = "Fuad";
-$_SESSION['password'] = "123456";
-
-sesiionu oxumaq
-
-echo $_SESSION['username'];
-
-session silmek
-unset($_SESSION['username']);
-
-butun sessionu silmek 
-session_unset();
-session_destroy();
-kontrol set olundugunu 
-isset()
+ 
